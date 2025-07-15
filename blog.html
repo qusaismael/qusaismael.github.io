@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qusai Ismael - Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-section">
+                <img src="pfp.jpeg" alt="Qusai Ismael Profile Picture" class="profile-picture">
+                <div class="profile-info">
+                    <h1>Qusai Ismael</h1>
+                    <p class="subtitle">Security & Privacy Engineer by day | AI & Software Development by night.</p>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="recommendations.html">Recommendations</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <main class="main-content">
+            <section id="blog">
+                <h2>Blog Posts from Medium<span class="accent-dot">.</span></h2>
+                <div id="medium-posts" class="blog-grid"></div>
+            </section>
+
+            <div id="post-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div id="modal-body"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+    </script>
+</body>
+</html> 
