@@ -1164,6 +1164,13 @@ section .writing-list li {
     transition: all 0.3s ease;
     flex-shrink: 0;
     margin-left: 1rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
 }
 
 .project-card-enhanced:hover .project-arrow {
